@@ -1,0 +1,61 @@
+:root {
+  --color-grey-olive: #6f7f78;
+  --color-shadow-grey: #1f232a;
+  --color-bright-snow: #fafbf9;
+  --color-light-grey: #E7E9E6;
+}
+
+.layout {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+.auto .btn {
+  background-color: var(--color-grey-olive);
+  border: 0.0125rem solid var(--color-grey-olive);
+  color: var(--color-bright-snow);
+}
+
+.night .btn {
+  background-color: var(--color-bright-snow);
+  border: 0.0125rem solid var(--color-bright-snow);
+  color: var(--color-shadow-grey);
+}
+
+.day .btn {
+  background-color: var(--color-bright-snow);
+  border: 0.0125rem solid var(--color-bright-snow);
+  color: var(--color-shadow-grey);
+}
+
+.btn {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); 
+  cursor: pointer;
+  font-size: 1rem; 
+  margin-right: 1rem;
+  padding: 0.5rem;
+  width: auto;
+}
+
+.auto {
+  background-color: #A3B1A0;
+  color: var(--color-shadow-grey);
+}
+
+.night {
+  background-color: var(--color-shadow-grey);
+  color: var(--color-bright-snow);
+}
+
+.day {
+  background-color: var(--color-light-grey);
+  color: var(--color-bright-snow);
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
