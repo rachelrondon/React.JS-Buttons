@@ -1,9 +1,9 @@
-import Toggle from './Toggle';
+import Show from './Show';
 
 function App() {
   return (
     <div>
-      <Toggle />
+      <Show />
     </div>
   );
 }
