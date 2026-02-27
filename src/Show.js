@@ -14,8 +14,8 @@ const Toggle = () => {
   return (
     <div className={className}>
       <div className="buttons">
-        <button className="btn" value="light" onClick={((e) => toggleTheme(e.target.value))}><SunIcon/>Light theme</button>
-        <button className="btn" value="dark" onClick={((e) => toggleTheme(e.target.value))}><MoonIcon/>Dark theme</button>
+        <button className="btn" value="light" onClick={((e) => toggleTheme(e.currentTarget.value))}><SunIcon/>Light theme</button>
+        <button className="btn" value="dark" onClick={((e) => toggleTheme(e.currentTarget.value))}><MoonIcon/>Dark theme</button>
       </div>
     </div>
   )
