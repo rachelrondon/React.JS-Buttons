@@ -16,24 +16,12 @@
   flex-direction: row;
 }
 
-.dark {
-  background-color: var(--color-shadow-grey);
-}
-
-.dark .btn {
-  background-color: var(--color-shadow-grey);
-  border: 0.0125rem solid var(--color-blue-slate);
-  color: var(--color-bright-snow);
-}
-
 .light {
   background-color: #F5F5F5;
 }
 
-.light .btn {
-  background-color: var(--color-bright-snow);
-  border: 0.0125rem solid var(--color-blue-slate);
-  color: var(--color-shadow-grey); 
+.dark {
+  background-color: var(--color-shadow-grey);
 }
 
 .btn {
@@ -51,4 +39,16 @@
 
 .btn svg {
   margin-right: 0.5rem;
+}
+
+.light .btn {
+  background-color: var(--color-bright-snow);
+  border: 0.0125rem solid var(--color-blue-slate);
+  color: var(--color-shadow-grey); 
+}
+
+.dark .btn {
+  background-color: var(--color-shadow-grey);
+  border: 0.0125rem solid var(--color-blue-slate);
+  color: var(--color-bright-snow);
 }
